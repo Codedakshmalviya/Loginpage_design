@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>git-github</title>
+    <style>
+      * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+      }
+      body {
+        width: 100%;
+        height: 100%;
+      }
+      .container {
+        max-width: 95vw;
+        height: 100vh;
+        margin: 0 auto;
+        background-color: rgb(110, 154, 190);
+        display: flex;
+        gap: 4rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .item {
+        width: 250px;
+        height: 150px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: rgb(18, 108, 197);
+        filter: blur(20%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+      }
+      #butt {
+        width: 70px;
+        font-size: larger;
+        background-color: rgb(18, 108, 197);
+        border: none;
+      }
+      .upar {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="upar">
+        <h1 style="font-family: cursive">CODEE-Code</h1>
+        <h2 style="font-family: cursive">Login Page</h2>
+      </div>
+      <form>
+        <div class="item">
+          <input
+            type="email"
+            id="mail"
+            placeholder="Email Address"
+            style="
+              border-radius: 10px;
+              padding: 7px;
+              margin: 2px;
+              border-color: white;
+            "
+          />
+
+          <input
+            type="password"
+            id="pass"
+            placeholder="Password"
+            style="
+              border-radius: 10px;
+              padding: 7px;
+              margin: 2px;
+              border-color: white;
+            "
+          />
+          <button id="butt">login</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
